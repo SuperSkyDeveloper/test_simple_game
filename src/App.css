@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 500px;
+  background-color: rgba(90, 94, 97, 0.568);
+  padding-bottom: 50px;
+}
+
+.home-content {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 200px 0;
+}
+
+a, .play-again {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  border: none;
+}
+
+a:hover, .play-again:hover {
+  color: rgb(12, 163, 77)
+}
+
+.quiz-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+.result-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.quiz-description {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 50px;
+  padding: 150px 20px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.question {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 50px;
+}
+
+.answer {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+  padding-left: 10px;
+  margin: 0 50px;
+}
+
+.result-element {
+  margin: 30px 0;
+}
+
+.quiz-number {
+  font-size: 20px;
+  margin-bottom: 150px;
+}
+
+.quiz-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-element {
+  margin: 0 20px;
+}
+
+button {
+  background: none;
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+
